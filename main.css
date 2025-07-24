@@ -41,8 +41,9 @@ body.gradient-anima::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 30vh;
     text-align: center;
+    margin-top: 2rem;
 }
 
 #mainblock h1 {
@@ -54,4 +55,37 @@ body.gradient-anima::before {
     letter-spacing: 0.05em;
     padding-left: 0.1em;
     padding-right: 0.1em;
+}
+#mainbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    text-align: center;
+}
+#mainbody h2 a {
+    font-size: 2rem;     
+    color: #fceabb;   
+    font-family: 'VCR_OSD_MONO';
+    margin: 0;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.05em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    text-align: center;
+}
+#mainbody h2 a:hover {
+    text-decoration-color: #b95dee;
+    text-decoration-thickness: 4px;
+}
+.icon {
+    height: 1em;
+    width: auto;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    display: inline-block;
+}
+#mainbody h2 a:hover .icon {
+    box-shadow: 0 0 0 6px #b95dee;
+    border-radius: 3px;
 }
